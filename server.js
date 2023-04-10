@@ -33,7 +33,10 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/html');
     fs.readFile('./public/index.html', (err, data) => {
-
+        if (err) {
+            console.error(err);
+            return;
+        }
 
 
 
