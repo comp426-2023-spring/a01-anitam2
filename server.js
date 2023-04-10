@@ -37,6 +37,9 @@ const server = http.createServer((req, res) => {
             console.error(err);
             return;
         }
+        res.end(data);
+    });
+});
 
 
 
