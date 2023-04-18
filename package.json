@@ -1,6 +1,6 @@
 {
   "name": "a01-webserver",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This package contains a very simple web server that takes one argument for port and then serves any files inside the public directory.",
   "main": "server.js",
   "scripts": {
@@ -11,13 +11,7 @@
     "url": "git+https://github.com/comp426-2023-spring/a01-anitam2.git"
   },
   "keywords": [
-    "web",
-    "server",
-    "port",
-    "node",
-    "fs",
-    "args",
-    "http"
+    "web"
   ],
   "author": "anitam2",
   "license": "GPL-3.0-or-later",
@@ -27,5 +21,8 @@
   "homepage": "https://github.com/comp426-2023-spring/a01-anitam2#readme",
   "dependencies": {
     "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.2"
   }
 }
